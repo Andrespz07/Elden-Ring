@@ -1,5 +1,6 @@
 <script setup>
-
+import CharacterButtons from '../components/CharacterButton.vue';
+import CreateCharacterButton from '../components/CreateCharacterButton.vue'
 </script>
 
 <template>
@@ -18,7 +19,10 @@
 </figcaption>
     </figure>
 </v-img>
-
+<div id="containerButtons">
+<CreateCharacterButton id="left"></CreateCharacterButton>
+<CharacterButtons id="right"></CharacterButtons>
+</div>
  </main>
  </section>
 </template>
@@ -31,7 +35,7 @@
     #background{
         background-image: url(../assets/img/primaryBackgroundIA.png);
         background-size: cover;
-        width: 100vw;
+        background-position: center;
         height: 100vh;
     header{
         display: flex;
@@ -57,11 +61,26 @@
         }
         figcaption{
             display: flex;
+            justify-content: center;
             margin-top: -6vh;
             color: $White;
             text-align: center;
             text-transform: uppercase;
             font-size: 0.9em;
+        }
+        #containerButtons{
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 4%;
+            gap: 20vw;
+            #left{
+                display: grid;
+                grid-column: 1/1;
+            }
+            #right{
+                display: grid;
+                grid-column: 2/2;
+            }
         }
     }
 }}
