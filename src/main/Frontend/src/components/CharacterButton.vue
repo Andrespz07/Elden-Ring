@@ -1,11 +1,12 @@
 <script setup>
-
+import { RouterLink } from 'vue-router'
+import Characters from '../views/Characters.vue';
 </script>
 
 <template>
-    <v-btn variant="text" class=buttons>
-        Character
-    </v-btn>
+    <RouterLink to="Characters"><v-btn :class="{'sizeLanding': $route.path === '/'}" variant="text" class=buttons>
+        Characters
+    </v-btn></RouterLink>
 </template>
 
 <style lang="scss" scoped>
@@ -15,6 +16,12 @@
     font-family: Mantinia-Regular;
     color: $Golden;
     text-transform: uppercase;
-    font-size: 1.4em;
+    
+}
+a{
+    text-decoration: none;
+}
+.sizeLanding{
+    font-size: 1.4rem;
 }
 </style>

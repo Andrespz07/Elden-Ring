@@ -32,11 +32,13 @@ import CreateCharacterButton from '../components/CreateCharacterButton.vue'
 
 *{
     font-family: Mantinia-Regular;
+    
     #background{
         background-image: url(../assets/img/primaryBackgroundIA.png);
         background-size: cover;
         background-position: center;
         height: 100vh;
+        filter: brightness(80%);
     header{
         display: flex;
         width: 100vw;
@@ -58,6 +60,7 @@ import CreateCharacterButton from '../components/CreateCharacterButton.vue'
             display: flex;
             width: 47vw;
             height: 30vh;
+            filter: brightness(110%)
         }
         figcaption{
             display: flex;
@@ -73,15 +76,6 @@ import CreateCharacterButton from '../components/CreateCharacterButton.vue'
             grid-template-columns: auto auto;
             margin-top: 4%;
             gap: 20vw;
-            #left{
-                display: grid;
-                grid-column: 1/1;
-            }
-            #right{
-                display: grid;
-                grid-column: 2/2;
-            }
-        }
-    }
+    }}
 }}
 </style>

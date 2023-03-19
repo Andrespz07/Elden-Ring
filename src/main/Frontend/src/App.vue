@@ -1,12 +1,9 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Landing from './views/Landing.vue';
 </script>
 
 <template>
-<Landing>
-</Landing>
-
+<RouterView></RouterView>
 </template>
 
 <style lang="scss" scoped>

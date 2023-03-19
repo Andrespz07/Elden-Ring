@@ -21,3 +21,4 @@ app.use(router)
 app.use(vuetify)
 
 app.mount('#app')
+

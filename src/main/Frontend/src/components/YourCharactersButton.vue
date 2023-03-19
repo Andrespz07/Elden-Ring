@@ -1,11 +1,11 @@
 <script setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
+import Characters from '../views/Characters.vue';
 </script>
 
 <template>
-    <RouterLink to="/CreateCharacter">
-    <v-btn :class="{'sizeLanding': $route.path === '/'}" variant="text" class=buttons>
-        Create your character
+    <RouterLink to="Characters"><v-btn variant="text" class=buttons>
+        Your characters
     </v-btn></RouterLink>
 </template>
 
@@ -21,8 +21,4 @@ import { RouterLink } from 'vue-router';
 a{
     text-decoration: none;
 }
-.sizeLanding{
-    font-size: 1.4rem;
-}
-
 </style>
