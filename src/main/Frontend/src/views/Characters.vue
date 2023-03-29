@@ -1,12 +1,13 @@
 <script setup>
-import Header from'../components/Header.vue'
+import Header from'../components/Header.vue';
+import CardCharacter from '../components/CardCharacter.vue';
 </script>
 
 <template>
 <section id="background">
 <Header></Header>
  <main id="cardsContainer">
-
+<CardCharacter></CardCharacter>
  </main>
  </section>
 </template>
