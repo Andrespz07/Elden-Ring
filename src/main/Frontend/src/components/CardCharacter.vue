@@ -4,18 +4,16 @@
 
 <template>
 <v-card
-width="20%"
-height="60vh"
 class="card">
-      <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-      height="200px"
-      width="200px"
-    ></v-img>
-    <v-card-title>
+ 
+      <figure class="imageContainer">
+    <img src="../assets/img/personajes/ancientDragonLansseax.jpg" alt="Ancient Dragon Lansseax" class="imageCharacter">
+      </figure>
+    
+    <!-- <v-list class="list">
+      <v-card-title>
         Ancient Dragon Lansseax
     </v-card-title>
-    <v-list>
         <v-list-item>
         <v-list-item-content>
           <v-list-item-title>Affiliation:</v-list-item-title>
@@ -31,7 +29,7 @@ class="card">
           <v-list-item-title>Role:</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
-    </v-list>
+    </v-list> -->
 </v-card>
         
     
@@ -41,8 +39,25 @@ class="card">
 @import '../assets/scss/variables.scss';
 
 .card{
-    background-image: url(../assets/img/card.png);
-    background-size: cover;
+  width:18vw;
+  height:65vh;
+  background-image: url(../assets/img/cardR.png);
+  background-size: cover;
+  background-position: center;
+  .imageContainer{
+    width: 75%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageCharacter{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
+
     
 </style>
