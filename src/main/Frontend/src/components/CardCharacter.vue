@@ -39,6 +39,9 @@ import { ref } from 'vue';
 <style lang="scss" scoped>
 @import "../assets/scss/variables.scss";
 
+*{
+  font-family: Mantinia-Regular;
+
 .card {
   width: 22vw;
   height: 70vh;
@@ -62,6 +65,9 @@ import { ref } from 'vue';
     height: 100%;
     object-fit: contain;
   }}
-  
-}
+  .list{
+    background-color: transparent;
+    color: $Golden;
+  }
+}}
 </style>
