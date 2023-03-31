@@ -14,22 +14,22 @@ import { ref } from 'vue';
     </figure>
 
     <v-list class="list">
-      <v-card-title>
+      <v-card-title class="vTitle">
         Ancient Dragon Lansseax
     </v-card-title>
-        <v-list-item>
+        <v-list-item class="vItem">
         <v-list-item-content>
-          <v-list-item-title>Affiliation:</v-list-item-title>
+          <v-list-item-title>Affiliation: Dragons</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
-      <v-list-item>
+      <v-list-item class="vItem">
         <v-list-item-content>
-          <v-list-item-title>Race:</v-list-item-title>
+          <v-list-item-title>Race: Dragon</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
-      <v-list-item>
+      <v-list-item class="vItem">
         <v-list-item-content>
-          <v-list-item-title>Role:</v-list-item-title>
+          <v-list-item-title>Role: Boss</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </v-list>
@@ -68,6 +68,15 @@ import { ref } from 'vue';
   .list{
     background-color: transparent;
     color: $Golden;
+    .vTitle{
+      font-size: xx-large;
+      display: flex;
+      
+    }
+    
   }
-}}
+}
+.v-card-title{
+      white-space: normal;
+    }}
 </style>
