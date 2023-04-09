@@ -13,25 +13,28 @@ import { ref } from 'vue';
       />
     </figure>
 
-    <v-list class="list">
-      <v-card-title class="vTitle">
+    <v-card-title class="vTitle">
         Ancient Dragon Lansseax
     </v-card-title>
-        <v-list-item class="vItem">
+    <v-list class="list">
+        <v-list-item class="vItemContainer">
         <v-list-item-content>
-          <v-list-item-title>Affiliation: Dragons</v-list-item-title>
+          <v-list-item-title class="vItem">Affiliation: Dragons</v-list-item-title>
+          <v-list-item-title class="vItem">Race: Dragon</v-list-item-title>
+          <v-list-item-title class="vItem">Role: Boss</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
+      <!-- <v-list-item class="vItem">
+        <v-list-item-content>
+          
         </v-list-item-content>
       </v-list-item>
       <v-list-item class="vItem">
         <v-list-item-content>
-          <v-list-item-title>Race: Dragon</v-list-item-title>
+          
         </v-list-item-content>
-      </v-list-item>
-      <v-list-item class="vItem">
-        <v-list-item-content>
-          <v-list-item-title>Role: Boss</v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
+      </v-list-item> -->
     </v-list>
   </v-card>
 </template>
@@ -65,18 +68,27 @@ import { ref } from 'vue';
     height: 100%;
     object-fit: contain;
   }}
-  .list{
-    background-color: transparent;
-    color: $Golden;
-    .vTitle{
+  .vTitle {
       font-size: xx-large;
       display: flex;
-      
+      white-space: normal;
+      color: $Golden;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 1vh;
+      margin-bottom: -0.5vh;
     }
-    
+  .list{
+    background-color: transparent;
+    color: $White;
+    .vItemContainer{
+      margin-top: 1vh;
+      .vItem{
+        text-transform: uppercase;
+        margin-left: 1vw;
+      }
+    }
   }
 }
-.v-card-title{
-      white-space: normal;
-    }}
+}
 </style>

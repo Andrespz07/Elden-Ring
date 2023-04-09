@@ -7,5 +7,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style lang="scss" scoped>
+@import './assets/scss/variables.scss';
 
+*{
+    font-family: Mantinia-Regular;
+}
 </style>
