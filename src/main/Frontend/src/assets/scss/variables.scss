@@ -6,10 +6,10 @@ $Black: #000;
 
 
 
-// @font-face {
-//     $Mantinia: url(../fonts/MantiniaRegular/Mantinia-Regular.otf)
-    
-//   }
+@font-face {
+    $font-family: 'mantinia';
+    src: url('../fonts/MantiniaRegular/Mantinia-Regular.otf'); 
+  }
   
 //   @font-face {
 //     font-family: "MiFuenteLocal";
