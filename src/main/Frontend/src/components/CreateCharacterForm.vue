@@ -3,20 +3,18 @@
 
 <template>
     
-<div class="form-background d-flex justify-center">
+<div class="form-background ">
   <v-form class="form " @submit.prevent="submit">
 
     <v-label class="label">Name</v-label>
     <v-text-field
       v-model="name"
-      :counter="10"
       :error-messages="name"
     ></v-text-field>
 
     <v-label class="label">Affilliation</v-label>
     <v-text-field
       v-model="afilliation"
-      :counter="7"
       :error-messages="phone"
     ></v-text-field>
 
@@ -39,16 +37,16 @@
       :error-messages="select"
     ></v-select>
 
-    
-    <v-btn @click="handleReset">
-      Cancel
-    </v-btn>
-
     <v-btn
-      class="me-4"
+      class="me-4 buttons"
       type="submit"
+      variant="text"
     >
       Send
+    </v-btn>
+    
+    <v-btn @click="handleReset" class="buttons" variant="text">
+      Cancel
     </v-btn>
 
     
@@ -59,18 +57,28 @@
 @import '../assets/scss/variables.scss';
     
     .form-background{
-        
-        // background-image: url(../assets/img/formBackgroundR.png);
-        // background-size: cover;
-        // width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        background-image: url(../assets/img/formBackground.png);
+        background-size: cover;
+        width: 55%;
+        margin-bottom: 10%;
+        background-color: transparent;
         .form{
-            width: 60%;
-
+            width: 84%;
+            margin-bottom: 16%;
+            margin-top: 17%;
             .label{
                 color: $Golden;
                 text-transform: uppercase;
                 margin-left: 0.5%;
             }
+            .buttons {
+    color: $Golden;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
         }
     }
 </style>
