@@ -17,9 +17,10 @@ import { RouterLink } from 'vue-router';
     color: $Golden;
     text-transform: uppercase;
     font-size: 1.1rem;
-}
+
 a{
     text-decoration: none;
+}
 }
 .sizeLanding{
     font-size: 1.4rem;

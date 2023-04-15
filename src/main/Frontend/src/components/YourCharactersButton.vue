@@ -5,7 +5,7 @@ import Characters from '../views/Characters.vue';
 
 <template>
     <RouterLink to="Characters"><v-btn variant="text" class=buttons>
-        Your characters
+        All characters
     </v-btn></RouterLink>
 </template>
 
@@ -17,8 +17,8 @@ import Characters from '../views/Characters.vue';
     color: $Golden;
     text-transform: uppercase;
     font-size: 1.1rem;
-}
+
 a{
     text-decoration: none;
-}
+}}
 </style>

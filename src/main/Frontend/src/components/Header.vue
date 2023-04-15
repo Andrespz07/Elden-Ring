@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router';
 import CreateCharacterButton from '../components/CreateCharacterButton.vue';
-import YourCharactersButton from '../components/YourCharactersButton.vue'
+import YourCharactersButton from '../components/YourCharactersButton.vue';
 </script>
 
 <template>
