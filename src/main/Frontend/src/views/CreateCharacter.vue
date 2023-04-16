@@ -8,6 +8,7 @@ import Header from '../components/Header.vue';
     <div id="background">
         <Header></Header>
     <h1>Create your character</h1>
+    <p>Complete this form to create your character</p>
 <CreateCharacterForm></CreateCharacterForm>
 </div>
 </template>
@@ -31,6 +32,14 @@ import Header from '../components/Header.vue';
             justify-content: center;
             margin-top: 5vh;
             margin-bottom: 10vh;
+    }
+    p{
+        color: $White;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        margin-top: -3%;
+        margin-bottom: -4%;
     }
 }
     
