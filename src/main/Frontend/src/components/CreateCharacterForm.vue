@@ -1,22 +1,25 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+import { reactive, ref } from 'vue';
+
+// const items = ['Astrologer', 'Bandit', 'Confessor', 'Hero', 'Prisoner', 'Prophet', 'Samurai', 'Vagabond', 'Warrior', 'Wretch'];
+
+// const data = () => ({
+//   select: null,
+//   items
+// })
 
 const items = ['Astrologer', 'Bandit', 'Confessor', 'Hero', 'Prisoner', 'Prophet', 'Samurai', 'Vagabond', 'Warrior', 'Wretch'];
-
 const data = () => ({
-  select: null,
+  name: '',
+  affiliation: '',
+  race: '',
+  role: '',
+  select: '',
   items
 })
 
-// const items = ['Astrologer', 'Bandit', 'Confessor', 'Hero', 'Prisoner', 'Prophet', 'Samurai', 'Vagabond', 'Warrior', 'Wretch'];
-// const data = () => ({
-//   name: '',
-//   affiliation: '',
-//   race: '',
-//   role: '',
-//   select: '',
-//   items
-// })
+const select = ref('');
 </script>
 
 <template>
@@ -57,6 +60,7 @@ const data = () => ({
     <v-select
       v-model="select"
       :items="items"
+      value="items"
       :error-messages="select"
       class="input"
     ></v-select>
@@ -74,7 +78,7 @@ const data = () => ({
       Cancel
     </v-btn>
     </router-link>
-    
+  
   </v-form>
 </div>
 </template>
