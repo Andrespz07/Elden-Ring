@@ -11,17 +11,67 @@ public class Character {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
     private String name;
 
-    @Column(name = "affiliation")
+   
     private String affiliation;
 
-    @Column(name = "race")
+
     private String race;
 
-    @Column(name = "role")
+
     private String role;
+
+
+    public Long getId() {
+        return id;
+    }
+
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public String getAffiliation() {
+        return affiliation;
+    }
+
+
+    public void setAffiliation(String affiliation) {
+        this.affiliation = affiliation;
+    }
+
+
+    public String getRace() {
+        return race;
+    }
+
+
+    public void setRace(String race) {
+        this.race = race;
+    }
+
+
+    public String getRole() {
+        return role;
+    }
+
+
+    public void setRole(String role) {
+        this.role = role;
+    }
     
     
 }
+
