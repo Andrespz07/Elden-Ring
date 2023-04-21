@@ -17,6 +17,7 @@ import { ref } from 'vue';
         Ancient Dragon Lansseax
     </v-card-title>
     <v-list class="list">
+      
         <v-list-item class="vItemContainer">
         <v-list-item-content>
           <v-list-item-title class="vItem">Affiliation: Dragons</v-list-item-title>
@@ -25,16 +26,6 @@ import { ref } from 'vue';
         </v-list-item-content>
       </v-list-item>
 
-      <!-- <v-list-item class="vItem">
-        <v-list-item-content>
-          
-        </v-list-item-content>
-      </v-list-item>
-      <v-list-item class="vItem">
-        <v-list-item-content>
-          
-        </v-list-item-content>
-      </v-list-item> -->
     </v-list>
   </v-card>
 </template>
