@@ -1,1 +1,3 @@
--- Active: 1681927330654@@127.0.0.1@3306@eldenringdb
+INSERT INTO characters (id_character, affiliation, name, race, role) VALUES (default, 'Dragon', 'Ancient Dragon Lansseax', 'Dragon', 'Boss')
+
+
