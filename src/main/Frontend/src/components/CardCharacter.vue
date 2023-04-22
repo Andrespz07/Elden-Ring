@@ -1,13 +1,19 @@
 <script setup>
 import { ref } from 'vue';
 
+const props = defineProps({
+  character: {
+    type: Object
+  }
+})
+
 </script>
 
 <template>
   <v-card class="card" >
     <figure class="imageContainer">
       <img
-        src="../assets/img/personajes/ancientDragonLansseax.jpg"
+        :src="character.url_image"
         alt="Ancient Dragon Lansseax"
         class="imageCharacter"
       />

@@ -1,6 +1,15 @@
 <script setup>
+import { onBeforeMount } from 'vue';
 import Header from'../components/Header.vue';
 import CardCharacter from '../components/CardCharacter.vue';
+import { useCharacterStore } from '../stores/charactersStore';
+
+const charactersStore = useCharacterStore()
+
+onBeforeMount(() => {
+    charactersStore.getAllCharacters()
+})
+
 </script>
 
 <template>
@@ -8,7 +17,7 @@ import CardCharacter from '../components/CardCharacter.vue';
 <Header></Header>
 <h1>Characters</h1>
  <main id="cardsContainer">
-<CardCharacter></CardCharacter>
+<CardCharacter v-for="character of charactersStore.allCharacters" :character="character"></CardCharacter>
  </main>
  </section>
 </template>
