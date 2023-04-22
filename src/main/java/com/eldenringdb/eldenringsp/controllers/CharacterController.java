@@ -12,13 +12,13 @@ import com.eldenringdb.eldenringsp.models.Character;
 import com.eldenringdb.eldenringsp.services.CharacterService;
 
 @RestController
-@RequestMapping("/api/v1/characters")
+@RequestMapping(path =  "/api/v1/characters")
 public class CharacterController {
 
     @Autowired
     private CharacterService characterService;
 
-    @GetMapping("")
+    @GetMapping(value = "")
 public List<Character> getAllCharacters() {
     return characterService.listAll();
 }

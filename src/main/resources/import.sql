@@ -1,5 +1,5 @@
 -- Active: 1681927330654@@127.0.0.1@3306@eldenringdb
-INSERT INTO characters (id_character, affiliation, name, race, role) VALUES (default, 'Dragon', 'Ancient Dragon Lansseax', 'Dragon', 'Boss')
+INSERT INTO characters (id_character, affiliation, name, race, role, url_image) VALUES (default, 'Dragon', 'Ancient Dragon Lansseax', 'Dragon', 'Boss', 'static/personajes/ancientDragonLansseax.jpg')
 INSERT INTO characters (id_character, affiliation, name, race, role) VALUES (default, 'Two Fingers', 'Blaidd the Half-Wolf', 'Shadowbound Beast', 'Warrior')
 INSERT INTO characters (id_character, affiliation, name, race, role) VALUES (default, 'Unknown', 'Demi-Human Boc', 'Demi-human', 'NPC')
 INSERT INTO characters (id_character, affiliation, name, race, role) VALUES (default, 'Golden Order', 'Brother Corhyn', 'Human', 'NPC')
