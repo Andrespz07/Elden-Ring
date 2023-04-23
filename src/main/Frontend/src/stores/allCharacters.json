@@ -1,0 +1,324 @@
+[
+    {
+      "Name": "Ancient Dragon Lansseax",
+      "Affiliation": "Dragons",
+      "Raza": "Dragon",
+      "Role": "Boss",
+      "Image": "./assets/img/personajes/ancientDragonLansseax.jpg"
+    },
+    {
+      "Name": "Blaidd the Half-Wolf",
+      "Affiliation": "Two Fingers",
+      "Raza": "Shadowbound Beast",
+      "Role": "Warrior"
+    },
+    {
+      "Name": "Demi-Human Boc",
+      "Affiliation": "Unknown",
+      "Raza": "Demi-human",
+      "Role": "NPC"
+    },
+    {
+      "Name": "Brother Corhyn",
+      "Affiliation": "Golden Order",
+      "Raza": "Human",
+      "Role": "NPC"
+    },
+    {
+      "Name": "D, Beholder of Death",
+      "Affiliation": "Golden Order",
+      "Raza": "Human",
+      "Role": "NPC"
+    },
+    {
+      "Name": "D, Hunter of the Dead",
+      "Affiliation": "Golden Order",
+      "Raza": "Human",
+      "Role": "NPC"
+    },
+    {
+      "Name": "Diallos Hoslow",
+      "Affiliation": "House Hoslow",
+      "Raza": "Human Tarnished",
+      "Role": "NPC"
+    },
+    {
+      "Name": "Dragonlord Placidusax",
+      "Affiliation": "Dragon",
+      "Raza": "Dragon",
+      "Role": "Dragonlord"
+    },
+    {
+      "Name": "Edgar",
+      "Affiliation": "Godrick the Grafted",
+      "Raza": "Human",
+      "Role": "Great Rune Bearer"
+    },
+    {
+      "Name": "Elden Beast",
+      "Affiliation": "Golder Order",
+      "Raza": "Unknown",
+      "Role": "Vassal of the Greater Will"
+    },
+    {
+      "Name": "Ever-Brilliant Goldmask",
+      "Affiliation": "Golden Order",
+      "Raza": "Tarnished",
+      "Role": "NPC"
+    },
+    {
+      "Name": "Fia, Deathbed Companion",
+      "Affiliation": "Prince of Death",
+      "Raza": "Human Tarnished",
+      "Role": "NPC"
+    },
+    {
+      "Name": "Gatekeeper Gostoc",
+      "Affiliation": "Stormveil Castle",
+      "Raza": "Unknown",
+      "Role": "Merchant"
+    },
+    {
+      "Name": "Godefroy the Grafted",
+      "Affiliation": "Stormveil Castle",
+      "Raza": "Demigod",
+      "Role": "Unknown"
+    },
+    {
+      "Name": "Godfrey, First Elden Lord",
+      "Affiliation": "Golden Order",
+      "Raza": "Demigod Tarnished",
+      "Role": "First Elden Lord"
+    },
+    {
+      "Name": "Godrick the Grafted",
+      "Affiliation": "Stormveil Castle",
+      "Raza": "Demigod",
+      "Role": "Ruler of Stormveil Castle & Great Rune Bearer"
+    },
+    {
+      "Name": "Godwyn the Golden",
+      "Affiliation": "Golden Order",
+      "Raza": "Demigod",
+      "Role": "Prince of Death"
+    },
+
+     {
+       "Name": "Irina of Morne",
+       "Affiliation": "Godrick the Grafted",
+       "Raza": "Human",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Iron Fist Alexander",
+       "Affiliation": "Unknown",
+       "Raza": "Jar",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Jar-Bairn",
+       "Affiliation": "Unknown",
+       "Raza": "Jar",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Kenneth Haight",
+       "Affiliation": "Stormveil Castle",
+       "Raza": "Human",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Knight Bernahl",
+       "Affiliation": "Volcano Manor",
+       "Raza": "Human",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Latenna",
+       "Affiliation": "Unknown",
+       "Raza": "Albinauric",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Lightseeker Hyetta",
+       "Affiliation": "Three Fingers",
+       "Raza": "Human",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Lichdragon Fortissax",
+       "Affiliation": "Dragon",
+       "Raza": "Dragon",
+       "Role": "Godwyn’s Protector"
+     },
+     {
+       "Name": "Malenia, Blade of Miquella",
+       "Affiliation": "Haligtree",
+       "Raza": "Demigod Empyrean",
+       "Role": "Great Rune Bearer"
+     },
+     {
+       "Name": "Maliketh, the Black Blade",
+       "Affiliation": "Golden Order",
+       "Raza": "Numen Empyrean",
+       "Role": "Great Rune Bearer"
+     },
+     {
+       "Name": "Margit, the Fell Omen",
+       "Affiliation": "Golden Order",
+       "Raza": "Omen Demigod",
+       "Role": "Morgott alter ego"
+     },
+     {
+       "Name": "Melina, the Kindling Maiden",
+       "Affiliation": "You",
+       "Raza": "Unknown",
+       "Role": "Maiden"
+     },
+     {
+       "Name": "Millicent",
+       "Affiliation": "Unknown",
+       "Raza": "Human",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Miquella of the Haligtree",
+       "Affiliation": "Haligtree",
+       "Raza": "Demigod Empyrean",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Miriel, Pastor of Vows",
+       "Affiliation": "Wailing Church",
+       "Raza": "Turtoise",
+       "Role": "Pastor"
+     },
+     {
+       "Name": "Mohg, Lord of Blood",
+       "Affiliation": "Formless Mother",
+       "Raza": "Omed Demigod",
+       "Role": "Great Rune Bearer"
+     },
+     {
+       "Name": "Nepheli Loux",
+       "Affiliation": "Golden Order",
+       "Raza": "Human Tarnished",
+       "Role": "NPC"
+     },
+     {
+       "Name": "Patches",
+       "Affiliation": "Unknown",
+       "Raza": "Human",
+       "Role": "NPC Merchant"
+     },
+
+      {
+        "Name": "Pidia, Carian Servant",
+        "Affiliation": "Lunar Princess Ranni",
+        "Raza": "Albinauric",
+        "Role": "Merchant"
+      },
+      {
+        "Name": "Preceptor Seluvis",
+        "Affiliation": "Lunar Princess Ranni",
+        "Raza": "Human",
+        "Role": "NPC Merchant"
+      },
+      {
+        "Name": "Queen Marika the Eternal",
+        "Affiliation": "Greater Will",
+        "Raza": "Numen",
+        "Role": "Vessel for the Elden Ring &  Divine sovereign of the Lands Between"
+      },
+      {
+        "Name": "Radagon of the Golden Order",
+        "Affiliation": "Golden Order",
+        "Raza": "Unknown",
+        "Role": "Male half of Marika"
+      },
+      {
+        "Name": "Lunar Princess Ranni",
+        "Affiliation": "Carian Royal Family",
+        "Raza": "Demigod Empyrean",
+        "Role": "NPC"
+      },
+      {
+        "Name": "Rennala, Queen of the Full Moon",
+        "Affiliation": "Academy of Raya Lucaria",
+        "Raza": "Unknown",
+        "Role": "Governor of the Academy of Raya Lucaria & Great Rune Bearer"
+      },
+      {
+        "Name": "Roderika",
+        "Affiliation": "Roundtable Hold",
+        "Raza": "Human Tarnished",
+        "Role": "NPC"
+      },
+      {
+        "Name": "Rya/Zorayas",
+        "Affiliation": "Volcano Manor",
+        "Raza": "Human/Snake",
+        "Role": "NPC"
+      },
+      {
+        "Name": "Rykard, Lord of Blasphemy",
+        "Affiliation": "Volcano Manor",
+        "Raza": "Demigod",
+        "Role": "Great Rune Bearer"
+      },
+      {
+        "Name": "Sage Gowry",
+        "Affiliation": "God of Rot",
+        "Raza": "Kindred of Rot",
+        "Role": "NPC"
+      },
+      {
+        "Name": "Sir Gideon Ofnir, the All-Knowing",
+        "Affiliation": "Two Fingers",
+        "Raza": "Human Tarnished",
+        "Role": "NPC"
+      },
+      {
+        "Name": "Sorcerer Rogier",
+        "Affiliation": "Raya Lucaria",
+        "Raza": "Human Tarnished",
+        "Role": "NPC"
+      },
+      {
+        "Name": "Sorceress Sellen",
+        "Affiliation": "Primeval current",
+        "Raza": "Human",
+        "Role": "NPC Merchant"
+      },
+      {
+        "Name": "Starscourge Radahn",
+        "Affiliation": "Redmane Castle",
+        "Raza": "Demigod",
+        "Role": "Great Rune Bearer"
+      },
+      {
+        "Name": "Tanith",
+        "Affiliation": "Volcano Manor",
+        "Raza": "Human",
+        "Role": "NPC"
+      },
+      {
+        "Name": "Thops",
+        "Affiliation": "Raya Lucaria",
+        "Raza": "Human",
+        "Role": "NPC"
+      },
+      {
+      "Name": "War Counselor Iji",
+       "Affiliation": "Lunar Princess Ranni",
+       "Raza": "Troll",
+       "Role": "NPC"
+       },
+       {
+       "Name": "White Mask Varré",
+       "Affiliation": "Mohg, Lord of Blood",
+       "Raza": "Human Tarnished",
+       "Role": "NPC"
+       }
+]
+       

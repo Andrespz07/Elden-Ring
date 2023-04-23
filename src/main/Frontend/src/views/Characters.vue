@@ -2,9 +2,9 @@
 import { onBeforeMount } from 'vue';
 import Header from'../components/Header.vue';
 import CardCharacter from '../components/CardCharacter.vue';
-import { useCharacterStore } from '../stores/charactersStore';
+import { useCharacterJsonStore } from '../stores/characterJsonStore';
 
-const charactersStore = useCharacterStore()
+const useCharacterJsonStore = useCharacterJsonStore()
 
 onBeforeMount(() => {
     charactersStore.getAllCharacters()
