@@ -13,15 +13,15 @@ public class WebConfig implements WebMvcConfigurer {
         registry
         .addMapping("/**")
         .allowedOrigins("http://localhost:5173", "http://localhost:8080")
-        // .allowCredentials(true)
+        .allowCredentials(true)
         .allowedMethods("GET","POST","PUT","DELETE","OPTION");
     }
 
-    // @Override
-    //     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-    //         registry.addResourceHandler("/**")
-    //         .addResourceLocations("classpath:/static/","classpath:/personajes/")
-    //         .setCachePeriod(0);
-    //     }
+    @Override
+        public void addResourceHandlers(ResourceHandlerRegistry registry) {
+            registry.addResourceHandler("/**")
+            .addResourceLocations("classpath:/static/","classpath:/personajes/")
+            .setCachePeriod(0);
+        }
     
 }

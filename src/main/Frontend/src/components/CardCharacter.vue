@@ -3,7 +3,8 @@ import { ref } from 'vue';
 
 const props = defineProps({
   character: {
-    type: Object
+    type: Object,
+    required: true,
   }
 })
 
