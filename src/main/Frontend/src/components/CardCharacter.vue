@@ -14,22 +14,22 @@ const props = defineProps({
   <v-card class="card" >
     <figure class="imageContainer">
       <img
-        :src="character.url_image"
+        :src="`http://localhost:8080/`+ character.url_image"
         alt="Ancient Dragon Lansseax"
         class="imageCharacter"
       />
     </figure>
 
     <v-card-title class="vTitle">
-        Ancient Dragon Lansseax
+        {{ character.name }}
     </v-card-title>
     <v-list class="list">
       
         <v-list-item class="vItemContainer">
         <v-list-item-content>
-          <v-list-item-title class="vItem">Affiliation: Dragons</v-list-item-title>
-          <v-list-item-title class="vItem">Race: Dragon</v-list-item-title>
-          <v-list-item-title class="vItem">Role: Boss</v-list-item-title>
+          <v-list-item-title class="vItem">Affiliation: {{ character.affiliation }}</v-list-item-title>
+          <v-list-item-title class="vItem">Race: {{ character.race }}</v-list-item-title>
+          <v-list-item-title class="vItem">Role: {{ character.role }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
 
