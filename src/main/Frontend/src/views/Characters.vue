@@ -44,6 +44,14 @@ onBeforeMount(() => {
             margin-top: 6vh;
             margin-bottom: 10vh;
         }
+        #cardsContainer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 93%;
+            margin: auto;
+        }
     }
 }
 </style>

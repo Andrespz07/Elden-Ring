@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue';
 
 const props = defineProps({
   character: {
@@ -44,14 +43,15 @@ const props = defineProps({
   font-family: Mantinia-Regular;
 
 .card {
-  width: 22vw;
-  height: 70vh;
+  width: 20vw;
+  height: 74vh;
   background-image: url(../assets/img/cardR.png);
   background-size: cover;
   background-position: center;
   background-color: transparent;
   border: none;
   border-radius: 0;
+  margin: 2% 0 2% 0;
   
   .imageContainer {
     margin-top: 7%;
@@ -79,11 +79,16 @@ const props = defineProps({
   .list{
     background-color: transparent;
     color: $White;
+    display: flex;
     .vItemContainer{
       margin-top: 1vh;
+      // display: flex;
       .vItem{
         text-transform: uppercase;
-        margin-left: 1vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
       }
     }
   }
