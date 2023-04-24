@@ -24,13 +24,14 @@ const props = defineProps({
     </v-card-title>
     <v-list class="list">
       
-        <v-list-item class="vItemContainer">
-        <v-list-item-content>
-          <v-list-item-title class="vItem">Affiliation: {{ character.affiliation }}</v-list-item-title>
-          <v-list-item-title class="vItem">Race: {{ character.race }}</v-list-item-title>
-          <v-list-item-title class="vItem">Role: {{ character.role }}</v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
+      <v-list-item class="vItemContainer">
+  <v-list-item-content>
+    <p class="vItem">Affiliation: {{ character.affiliation }}</p>
+    <p class="vItem">Race: {{ character.race }}</p>
+    <p class="vItem">Role: {{ character.role }}</p>
+  </v-list-item-content>
+</v-list-item>
+
 
     </v-list>
   </v-card>
@@ -69,6 +70,7 @@ const props = defineProps({
   .vTitle {
       font-size: xx-large;
       display: flex;
+      justify-content: center;
       white-space: normal;
       color: $Golden;
       text-align: center;
@@ -82,13 +84,16 @@ const props = defineProps({
     display: flex;
     .vItemContainer{
       margin-top: 1vh;
-      // display: flex;
+  margin-bottom: 1vh;
+  height: auto;
       .vItem{
         text-transform: uppercase;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: hidden;
+  text-overflow: ellipsis;
       }
     }
   }
