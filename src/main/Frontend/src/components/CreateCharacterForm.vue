@@ -38,7 +38,6 @@ function validateForm() {
 
 function submit() {
   if (validateForm()) {
-    // submit form data here
   }
 }
 

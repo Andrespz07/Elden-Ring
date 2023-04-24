@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-import Characters from '../views/Characters.vue';
 </script>
 
 <template>

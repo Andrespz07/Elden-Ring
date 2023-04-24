@@ -18,7 +18,6 @@ import Header from '../components/Header.vue';
 #background{
         background-image: url(../assets/img/secBackground.png);
         background-size: cover;
-        // background-position: center; al quitar esto, la imagen se adapta mejor pero solo se ve la parte superior, quizá con más contenido se arregle
         padding-bottom: 1%;
         width: auto;
     
