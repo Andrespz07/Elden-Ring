@@ -85,4 +85,5 @@ npm run test:unit
 - Vuetify
 - Axios
 
+# Autor:
 - [Andrés Pérez](https://github.com/Andrespz07)
